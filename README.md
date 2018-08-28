@@ -5,4 +5,4 @@ O SmartNode Dashboard consiste num framework baseado em Bootstrap com intuito de
 # Iniciando
 Há duas opções de iniciar utilizando o framework.
 * [Baixando a versão estável atual](https://github.com/smart-node-dashboard/zipball/master).
-* Fazendo um clone do respositório: `git clone git://github.com/smart-node-dashboard.git`.
+* Fazendo um clone do repositório: `git clone git://github.com/smart-node-dashboard.git`.
