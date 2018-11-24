@@ -1,6 +1,8 @@
 # SmartNode Dashboard
 
-O SmartNode Dashboard consiste num framework baseado em Bootstrap com intuito de fornecer um código base para criação de Dashboads. Por meio de sua estrutura de customização de código, fornece aos programadores a criação de interfaces mais eficazes e num curto espaço de tempo. 
+O SmartNode Dashboard é um *framework* que foi criado a partir da base de código do [Bootstrap](http://getbootstrap.com). Sua proposta é fornecer um código base para criação de Dashboads a partir dos elementos _cards_. Os *cards* são padrões de interfaces altamente versáteis e por isso sua utilização é muito interessante para ser utilizada neste projeto. 
+
+Este projeto oferece uma estrutura de código derivado a partir da customização do código base do Bootstrap. Dessa forma é possível utilizar a mesma base de conhecimento se tem com o Bootstrap para utilizar no _SmartNode Dashboard_. A intenção principal deste projeto é fornecer aos programadores a criação de interfaces mais eficazes e num curto espaço de tempo. Além de fornecer uma possibilidade estender as funcionalidades já existentes. 
 
 ## Iniciando
 Há duas opções de iniciar utilizando o framework.
