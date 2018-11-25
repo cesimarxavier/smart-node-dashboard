@@ -1,0 +1,21 @@
+{
+    "name": "smartnode dashboard"
+  , "description": "Simples usar e fácil de estender."
+  , "version": "0.0.1"
+  , "keywords": ["smartnode dashboard", "css"]
+  , "homepage": "https://github.com/cesimar/smart-node-dashboard"
+  , "author": "Cesimar Xavier"
+  , "repository": {
+      "type": "git"
+    , "url": "https://github.com/cesimar/smart-node-dashboard.git"
+  }
+  , "licenses": [
+    {
+        "type": "MIT License"
+      , "url": "https://opensource.org/licenses/MIT"
+    }
+  ]
+  , "devDependencies": {
+      "bootstrap": "4.1.3"
+  }
+}
