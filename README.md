@@ -43,3 +43,10 @@ O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráfi
 ### 1.3 Contribuir com o _SmartNode Dashboard_
 Os programadores podem contribuir enviando novos _cards_ para este repositório.
 
+## Usando o SmartNode Dashboard
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
