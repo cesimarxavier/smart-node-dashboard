@@ -4,12 +4,12 @@ O SmartNode Dashboard é um *framework* que foi criado a partir da base de códi
 
 Por ter sido derivado do Bootstrap, esse _framework_ estende também as mesmas convenções de código. Além disso ela utiliza a arquitetura de código CSS [BEM](http://getbem.com/). A intenção principal deste projeto é fornecer aos programadores que precisam lidar com a criação de interfaces para _dashboards_ ter uma ferramenta que ajude a produzir projetos mais eficazes e num curto espaço de tempo. Além do mais, é possível criar novos formatos a partir da estrutura proposta no _SmartNode Dashboard_.
 
-## Iniciando
+## 1. Iniciando
 Há duas opções de iniciar utilizando o framework.
 * [Baixando a versão estável atual](https://github.com/smart-node-dashboard/zipball/master).
 * Fazendo um clone do repositório: `git clone git://github.com/smart-node-dashboard.git`.
 
-### Arquitetura e funcionamento
+### 1.1 Arquitetura e funcionamento
 
 A figura abaixo mostra a arquitetura de um _card_ utilizado para exibir os dados no _dahsboard_.
 
@@ -27,17 +27,19 @@ O container de _card_ é subdivido internamente em três partes de conteúdo. Ca
 
 ![Card de Tempo](https://raw.githubusercontent.com/cesimar/smart-node-dashboard/master/arquitetura-card-tempo.jpg)
 
-A figura acima mostra uma exemplo de utilização de um _card_ customizado para apresentar informações sobre o tempo.
+A figura acima mostra uma exemplo de utilização de um _card_ customizado para apresentar informações sobre o tempo. Esse exemplo está disponível na coleção de _cards_ de exemplos já customizados e disponíveis nessa versão do _framework_.
 
-### Elementos
-O projeto conta com alguns elementos básicos (_cards_ e gráficos). Nesta primeira versão ele conta apenas com _cards_. Cada _card_ tem uma funcionalidade específica. Atualmente o framework conta com os seguintes elementos:
+### 1.2 Cards de exemplo disponíveis
+O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráficos). Cada _card_ tem uma funcionalidade específica e sua customização é apenas uma estilização simples que pode ser facilmente modificada. Atualmente o framework conta com os seguintes elementos:
 
-* Card de Tempo
-* Card de Bikes (estações de aluguéis de bicicletas)
-* Card de Qualidade do Ar
-* Card de Trânsito
-* Card de Novidades e Tendências
-* Card de Ônibuss
-* Card de Câmeras de Trânsito
-* Card de Mapas da Cidade
+* Card de Tempo: _.card--tempo_
+* Card de Bikes (estações de aluguéis de bicicletas): _.card--bikes_
+* Card de Qualidade do Ar: _.card--ar_
+* Card de Trânsito: _.card--transito_
+* Card de Novidades e Tendências: _.card--news_
+* Card de Ônibus: _.card--bus_
+* Card de Câmeras de Trânsito: _.card--cameras_
+
+### 1.3 Contribuir com o _SmartNode Dashboard_
+Os programadores podem contribuir enviando novos _cards_ para este repositório.
 
