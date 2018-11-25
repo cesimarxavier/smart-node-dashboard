@@ -1,8 +1,8 @@
 # SmartNode Dashboard
 
-O SmartNode Dashboard é um *framework* que foi criado a partir da base de código do [Bootstrap](http://getbootstrap.com). Sua proposta é fornecer um código base para criação de Dashboads a partir dos elementos _cards_. Os *cards* são padrões de interfaces altamente versáteis e por isso sua utilização é muito interessante para ser utilizada neste projeto. 
+O SmartNode Dashboard é um *framework* que foi construído sobre a base de código do [Bootstrap](http://getbootstrap.com). Sua proposta é fornecer um código base para criação de _Dashboads_ a partir dos elementos [_cards_](http://ui-patterns.com/patterns/cards). Os *cards* são padrões de interfaces altamente versáteis e por isso sua utilização é muito interessante para ser utilizada neste projeto. O Bootstrap fornece um código padrão para configurar _cards_ e dessa forma é possível abstrair seu uso e trazer novas possibilidades para esse padrão.
 
-Por ter sido derivado do Bootstrap, esse _framework_ estende também as mesmas convenções de código. Além disso ela utiliza a arquitetura de código CSS [BEM](http://getbem.com/). A intenção principal deste projeto é fornecer aos programadores que precisam lidar com a criação de interfaces para _dashboards_ ter uma ferramenta que ajude a produzir projetos mais eficazes e num curto espaço de tempo. Além do mais, é possível criar novos formatos a partir da estrutura proposta no _SmartNode Dashboard_.
+Por ter sido derivado do Bootstrap, esse _framework_ estende também as mesmas convenções de código. Além disso ela utiliza a arquitetura de código CSS [BEM](http://getbem.com/). A intenção principal deste projeto é fornecer aos programadores que precisam lidar com a criação de interfaces para _dashboards_, ter uma ferramenta que ajude a produzir projetos mais consistentes e em menos tempo. Além do mais, é possível criar novos formatos a partir da estrutura proposta no _SmartNode Dashboard_.
 
 ## 1. Iniciando
 Há duas opções de iniciar utilizando o framework.
@@ -28,6 +28,8 @@ O container de _card_ é subdivido internamente em três partes de conteúdo. Ca
 ![Card de Tempo](https://raw.githubusercontent.com/cesimar/smart-node-dashboard/master/arquitetura-card-tempo.jpg)
 
 A figura acima mostra uma exemplo de utilização de um _card_ customizado para apresentar informações sobre o tempo. Esse exemplo está disponível na coleção de _cards_ de exemplos já customizados e disponíveis nessa versão do _framework_.
+
+![Dashboard de Exemplo](https://raw.githubusercontent.com/cesimar/smart-node-dashboard/master/mockup-prototipo.jpg)
 
 ### 1.2 Cards de exemplo disponíveis
 O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráficos). Cada _card_ tem uma funcionalidade específica e sua customização é apenas uma estilização simples que pode ser facilmente modificada. Atualmente o framework conta com os seguintes elementos:
@@ -98,3 +100,4 @@ O código abaixo mostra o _card_ sendo modificado para um tipo específico de vi
       </section>
     </section>
 ```
+
