@@ -43,10 +43,29 @@ O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráfi
 ### 1.3 Contribuir com o _SmartNode Dashboard_
 Os programadores podem contribuir enviando novos _cards_ para este repositório.
 
-## Usando o SmartNode Dashboard
+## 2. Usando o SmartNode Dashboard
 
-```python
-s = "Python syntax highlighting"
-print s
+```html
+    <section class="card">
+      <section class="card__title">
+        <!-- texto do título -->
+      </section>
+
+      <section class="card__body">
+        <div class="card__body__top">
+          <!-- texto do complementar -->
+        </div>
+        <div class="card__body__content">
+          <!-- texto do conteúdo principal -->
+        </div>
+        <div class="card__body__down">
+          <!-- texto do complementar -->
+        </div>
+      </section>
+
+      <section class="card__footer">
+        <!-- conteúdo de interação -->
+      </section>
+    </section>
 ```
 
