@@ -29,7 +29,11 @@ O container de _card_ é subdivido internamente em três partes de conteúdo. Ca
 
 A figura acima mostra uma exemplo de utilização de um _card_ customizado para apresentar informações sobre o tempo. Esse exemplo está disponível na coleção de _cards_ de exemplos já customizados e disponíveis nessa versão do _framework_.
 
+Logo abaixo é possível ver esse _cards_ sendo aplicados para exibir informações a cerca de diversas fontes diferentes. Cada _card_ tem uma saída diferente (CF01 - __card tempo__, CF02 - __card bikes__, CF03 - __card qualidade do ar__, CF04 - __card rotas de ônibus__, CP01 - __card de trânsito em tempo real__, CD01 - __card de eventos de natal__, CD02 - __card de câmera de tráfego__).
+
 ![Dashboard de Exemplo](https://raw.githubusercontent.com/cesimar/smart-node-dashboard/master/mockup-prototipo.jpg)
+
+
 
 ### 1.2 Cards de exemplo disponíveis
 O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráficos). Cada _card_ tem uma funcionalidade específica e sua customização é apenas uma estilização simples que pode ser facilmente modificada. Atualmente o framework conta com os seguintes elementos:
