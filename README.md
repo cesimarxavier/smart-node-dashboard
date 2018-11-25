@@ -44,7 +44,7 @@ O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráfi
 | Card de Bikes                 | .card--bike          |
 | Card de Qualidade do Ar       | .card--ar            |
 | Card de Trânsito              | .card--transito      |
-| Card de Eventos Culturais     | .card--news          | 
+| Card de Eventos Culturais     | .card--evento          | 
 | Card de Linhas de Ônibus      | .card--bus           |
 | Card de Câmeras de Trânsito   | .card--cameras       |
 
