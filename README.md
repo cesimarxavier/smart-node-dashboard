@@ -51,7 +51,7 @@ O código abaixo mostra o código básico de uso de um _card_. A customização 
 
 ```html
     <section class="card">
-      <section class="card__title">
+      <section class="card__header">
         <!-- texto do título -->
       </section>
 
@@ -77,7 +77,7 @@ O código abaixo mostra o _card_ sendo modificado para um tipo específico de vi
 
 ```html
     <section class="card card--tempo">
-      <section class="card__title">
+      <section class="card__header">
         <!-- texto do título -->
       </section>
 
