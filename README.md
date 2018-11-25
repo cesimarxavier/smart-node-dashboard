@@ -45,6 +45,8 @@ Os programadores podem contribuir enviando novos _cards_ para este repositório.
 
 ## 2. Usando o SmartNode Dashboard
 
+O código abaixo mostra o código básico de uso de um _card_. A customização será a padronizada no _framework_.
+
 ```html
     <section class="card">
       <section class="card__title">
@@ -69,3 +71,28 @@ Os programadores podem contribuir enviando novos _cards_ para este repositório.
     </section>
 ```
 
+O código abaixo mostra o _card_ sendo modificado para um tipo específico de visualização. O _card_ de tempo. Perceba que nesse código a única alteração foi na classe extra incluída no container principal do _card_. Dessa forma é possível reescrever ou apenas sobrepor a funcionalidade pré-existente do elemento tempo.
+
+```html
+    <section class="card card--tempo">
+      <section class="card__title">
+        <!-- texto do título -->
+      </section>
+
+      <section class="card__body">
+        <div class="card__body__top">
+          <!-- texto do complementar -->
+        </div>
+        <div class="card__body__content">
+          <!-- texto do conteúdo principal -->
+        </div>
+        <div class="card__body__down">
+          <!-- texto do complementar -->
+        </div>
+      </section>
+
+      <section class="card__footer">
+        <!-- conteúdo de interação -->
+      </section>
+    </section>
+```
