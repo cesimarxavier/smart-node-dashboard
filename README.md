@@ -11,6 +11,8 @@ Há duas opções de iniciar utilizando o framework.
 
 ### Arquitetura do Código
 
+A figura abaixo mostra a arquitetura de um _card_ utilizado para exibir os dados no _dahsboard_.
+<https://raw.githubusercontent.com/cesimar/smart-node-dashboard/master/arquitetura-card.jpg>
 
 
 ### Elementos
