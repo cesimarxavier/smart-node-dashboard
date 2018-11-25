@@ -1,0 +1,130 @@
+$color-text-dark: #000;
+$color-text : $color-text-dark;
+$color-gray : rgba($color-text-dark, .4);
+$color-light : #999;
+$color-light-extra : #BBB;
+
+/**
+******* Fonte Padrão Utilizada
+https://fonts.google.com/specimen/Titillium+Web
+
+É possível realizar a configuração diretamente no arquivo do Bootstrap
+*/
+$font-title : 'Titillium Web', sans-serif;
+
+// Configuração Opcional
+body{
+  padding: 1rem;
+  background-color: #f3e7df !important;
+  background-color: rgba(#000, .05) !important;
+}
+
+
+/*****************************************************************
+-------------------- BASIC CONFIG OF CARD -----------------------
+*****************************************************************/
+
+.card{
+  margin-top: 1.25rem;
+  box-shadow: 1px 1px 8px rgba($color-gray, .1);
+  font-size: 1.2rem;
+
+
+  .card__title, .card__body, .card__footer{
+    padding: 0.5rem;
+    font-size: .75em;
+    line-height: 1.1em;
+    color: $color-light;
+  }
+
+  /*******************************************
+  * Configuração do Bloco de Cabeçalho
+  */
+  .card__header{
+    color : $color-text-dark;
+    border-bottom: 1px solid rgba($color-gray, .08);
+  }
+
+
+  /*******************************************
+  * Configuração do Bloco de Conteúdo
+  */
+  .card__body{
+
+    .card__body__top, .card__body__down{
+      height: 10px;
+      font-size: 0.98em;
+    }
+
+    .card__body__content{
+      font-size: 1em;
+      text-align: center;
+      color: $color-text-dark;
+
+      strong, b, .special{
+        font-size: 7em;
+        line-height: 1.2em;
+        display: inline-block;
+        font-family: $font-title;
+        letter-spacing: -10px;
+      }
+
+      span, .light{
+        font-size: 7em;
+        font-family: $font-title;
+        font-weight: light;
+        display: inline-block;
+        letter-spacing: -10px;
+      }
+
+      .sup, sup, sub, .sub{
+        font-size: 12px;
+      }
+    }
+
+    .card__body__list{
+      margin: 0.5rem 0;
+      padding: 0;
+
+      .item, dd, li{
+        color: $color-text;
+        line-height: 1.2em;
+        padding-bottom: .35rem;
+      }
+    }
+
+  }
+
+
+  /*****
+  * Configuração do Bloco de Cabeçalho
+  */
+  .card__footer{
+    border-top: 1px solid rgba($color-gray, .08);
+  }
+
+
+
+
+
+  /************************************
+  >>>>> ESTENDENDO CARDS **********
+  **************************/
+
+  //*** Card de Tempo
+  &.card--tempo{}
+  //*** Card de Bikes
+  &.card--bike{}
+  //*** Card de Rotas de Ônibus
+  &.card--onibus{}
+  //*** Card de Qualidade do Ar
+  &.card--ar{}
+  //*** Card de Trânsito em tempo real
+  &.card-transito{}
+  //*** Card de Eventos Culturais
+  &.card-evento{}
+  //*** Card de Trânsito em tempo real
+  &.card-cameras{}
+
+
+}
