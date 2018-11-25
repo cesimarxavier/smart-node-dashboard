@@ -32,13 +32,15 @@ A figura acima mostra uma exemplo de utilização de um _card_ customizado para 
 ### 1.2 Cards de exemplo disponíveis
 O projeto conta com alguns elementos básicos já disponíveis (_cards_ e gráficos). Cada _card_ tem uma funcionalidade específica e sua customização é apenas uma estilização simples que pode ser facilmente modificada. Atualmente o framework conta com os seguintes elementos:
 
-* Card de Tempo: _.card--tempo_
-* Card de Bikes (estações de aluguéis de bicicletas): _.card--bikes_
-* Card de Qualidade do Ar: _.card--ar_
-* Card de Trânsito: _.card--transito_
-* Card de Novidades e Tendências: _.card--news_
-* Card de Ônibus: _.card--bus_
-* Card de Câmeras de Trânsito: _.card--cameras_
+| _Card_                        | Classe Modificadora  |
+| ----------------------------- |:--------------------:|
+| Card de Tempo                 | .card--tempo         |
+| Card de Bikes                 | .card--bike          |
+| Card de Qualidade do Ar       | .card--ar            |
+| Card de Trânsito              | .card--transito      |
+| Card de Eventos Culturais     | .card--news          | 
+| Card de Linhas de Ônibus      | .card--bus           |
+| Card de Câmeras de Trânsito   | .card--cameras       |
 
 ### 1.3 Contribuir com o _SmartNode Dashboard_
 Os programadores podem contribuir enviando novos _cards_ para este repositório.
